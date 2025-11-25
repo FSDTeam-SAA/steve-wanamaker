@@ -127,12 +127,15 @@
 .text-secondary{
   color: #343A40;
 }
+.text-gray{
+  color: #575F65;
+}
 .bg-primary{
   background-color: #75C043;
 }
 .bg-secondary{
   background-color: #343A40;
 }
-.border-prymary{
+.border-primary{
   border-color: #75C043;
 }

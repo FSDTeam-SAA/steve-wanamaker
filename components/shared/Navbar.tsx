@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <section className="py-4 shadow-sm bg-white">
+    <section className="py-4 shadow-sm bg-transparent backdrop-blur-2xl fixed top-0 left-0 z-50 w-full">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           
@@ -37,8 +37,8 @@ const Navbar = () => {
                   href={item.href}
                   className={`pb-1 transition-all ${
                     pathname === item.href
-                      ? "border-b-2 border-black font-semibold"
-                      : "text-gray-700 hover:text-black"
+                      ? "border-b-2 text-primary border-primary font-semibold"
+                      : "text-black hover:text-black"
                   }`}
                 >
                   {item.label}

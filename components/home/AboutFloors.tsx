@@ -4,20 +4,20 @@ import { Button } from "../ui/button";
 
 const AboutFloors = () => {
   return (
-    <section className="py-16">
+    <section className="my-16 md:my-20">
       <div className="container mx-auto px-4">
 
         {/* Heading */}
         <div className="text-center">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#343A40] mb-4">
+          <h2 className="text-xl md:text-3xl font-bold text-secondary mb-4 tracking-tight">
             About District Floors
           </h2>
-          <p className="text-sm md:text-base text-gray-700">
+          <p className="text-sm md:text-base text-gray">
             Your trusted partner for delivering exceptional, high-quality
             commercial flooring solutions tailored to every business space.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:gap-12 mt-[40] lg:mt-[80px]  lg:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 gap-8 md:gap-12 mt-[40] lg:mt-20  lg:grid-cols-2 items-center">
 
 
 

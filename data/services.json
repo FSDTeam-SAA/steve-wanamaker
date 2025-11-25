@@ -1,0 +1,34 @@
+[
+  {
+    "id":"1",
+    "img": "/services/services.jpg",
+    "title": "Commercial Flooring Installation",
+    "description": "District Floors delivers high quality commercial flooring solutions for offices, retail, and industrial spaces. Our mission is to combine durability, style, and functionality to transform every commercial environment we work on. We use the best materials and techniques to ensure long-lasting and professional results.",
+    "button": "Learn More",
+    "whichside": "left"
+  },
+  {
+    "id":"2",
+    "img": "/services/services2.jpg",
+    "title": "Office Flooring",
+    "description": "Our office flooring solutions focus on creating professional, durable, and stylish workspaces. We design and install floors that enhance the office environment, improve functionality, and withstand daily wear while maintaining a sleek, modern look. Our office flooring solutions focus on creating professiona.",
+    "button": "Discover More",
+    "whichside": "right"
+  },
+  {
+    "id":"3",
+    "img": "/services/services3.jpg",
+    "title": "Retail Flooring",
+    "description": "For retail spaces, we provide flooring that is both attractive and resilient. Our solutions handle high foot traffic, highlight your store’s aesthetics, and create an inviting atmosphere that enhances the shopping experience. For retail spaces, we provide flooring that is both attractive and resilient.",
+    "button": "View Details",
+    "whichside": "left"
+  },
+    {
+    "id":"3",
+    "img": "/services/services4.jpg",
+    "title": "Industrial Flooring",
+    "description": "Our industrial flooring is designed for heavy duty performance, durability, and safety. Perfect for warehouses, factories, and other industrial facilities, our flooring solutions withstand demanding environments while ensuring long lasting reliability. Our industrial flooring is designed for heavy duty performance, durability.",
+    "button": "View Details",
+    "whichside": "right"
+  }
+]
