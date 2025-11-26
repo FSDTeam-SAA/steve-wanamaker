@@ -1,14 +1,16 @@
 // ...existing code...
 import React from "react";
 import { Button } from "../ui/button";
-import { MoveLeft, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
+
+//
 
 const ReadyToStart = () => {
   return (
     <section>
       {/* Use a valid Tailwind gradient class instead of an empty bg-[url()] */}
       <div className="container mx-auto px-4 py-16 md:py-20  ">
-        <div className="flex justify-center flex-col items-center text-center  py-16 md:py-20 px-4 md:px-8 rounded-lg shadow-lg border bg-[url('/readytostart.png')] opacity--0 bg-cover bg-center bg-no-repeat bg-[#CFE9BD]">
+        <div className="flex justify-center flex-col items-center text-center  py-16 md:py-20 px-4 md:px-8 bg-[url('/readytostart.png')] rounded-lg shadow-lg border opacity--0 bg-cover bg-center bg-no-repeat bg-[#CFE9BD]">
           <h2 className="text-gray-800 text-2xl md:text-3xl font-semibold tracking-tight mb-4">
             Ready to Start Your{" "}
             <span className="text-primary">Flooring Project?</span>

@@ -21,9 +21,7 @@ const ServicesCard = ({
     <div className="">
       <div
         className={`container w-[95%] py-4 lg:w-full mx-auto flex flex-col lg:flex-row items-center   ${
-          whichside === "left"
-            ? "lg:flex-row"
-            : "lg:flex-row-reverse"
+          whichside === "left" ? "lg:flex-row" : "lg:flex-row-reverse"
         }`}
       >
         {/* Image */}
@@ -38,7 +36,11 @@ const ServicesCard = ({
         </div>
 
         {/* Content */}
-        <div className={`w-full lg:w-1/2 space-y-4 ${whichside === "left" ? "lg:pl-12" : "lg:pr-12 text-right"} mt-8 lg:mt-0`}>
+        <div
+          className={`w-full lg:w-1/2 space-y-4 ${
+            whichside === "left" ? "lg:pl-12" : "lg:pr-12 text-right"
+          } mt-8 lg:mt-0`}
+        >
           <h2 className="text-xl md:text-2xl font-semibold text-secondary">
             {title}
           </h2>
@@ -47,7 +49,9 @@ const ServicesCard = ({
             {description}
           </p>
 
-          <Button className="bg-transparent text-primary text-base tracking-tight hover:bg-transparent cursor-pointer hover:scale-105  font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-[40px]">{button}</Button>
+          <Button className="bg-transparent text-primary text-base tracking-tight hover:bg-transparent cursor-pointer hover:scale-105  font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-10">
+            {button}
+          </Button>
         </div>
       </div>
     </div>
