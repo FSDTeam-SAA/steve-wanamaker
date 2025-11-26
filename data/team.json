@@ -1,0 +1,42 @@
+[
+  {  
+    "name": "Steve Wanamaker",
+    "designation": "Founder & CEO",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "Jane Doe",
+    "designation": "Chief Operating Officer",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "John Smith",
+    "designation": "Head of Sales",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "Emily Davis",
+    "designation": "Marketing Director",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "Michael Brown",
+    "designation": "Lead Project Manager",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "Sarah Wilson",
+    "designation": "Senior Designer",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "David Lee",
+    "designation": "Customer Relations Manager",
+    "photo": "/team/steve.jpg"
+  },
+  {
+    "name": "Laura Garcia",
+    "designation": "Finance Manager",
+    "photo": "/team/steve.jpg"
+  }
+]
