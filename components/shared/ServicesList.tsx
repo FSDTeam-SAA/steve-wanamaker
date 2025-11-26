@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesCard from "./ServicesCard";
-import services from "@/data/services.json";
+import data from "@/data/services.json";
 
 const ServicesList = ({
   heading,
@@ -10,7 +10,7 @@ const ServicesList = ({
   paragraph: string;
 }) => {
   return (
-    <section className="my-16 md:my-20 ">
+    <section className="my-16 md:my-20">
       <div className="container mx-auto">
         <div className="text-center mb-12 md:mb-20">
           <h2 className="text-secondary text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
@@ -20,13 +20,15 @@ const ServicesList = ({
             {paragraph}
           </p>
         </div>
-        {services.map((service, index) => (
+
+        {data.services.map((service) => (
           <ServicesCard
-            key={index}
-            img={service.img}
+            key={service.id}
+            id={service.id}
+            img={service.imageUrl}
             title={service.title}
             description={service.description}
-            button={service.button}
+            button={service.button ?? ""}
             whichside={service.whichside}
           />
         ))}

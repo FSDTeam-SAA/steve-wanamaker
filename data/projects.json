@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Commercial Flooring",
+      "description": "Durable and stylish flooring for offices, retail, and industrial spaces.",
+      "shortDescription": "High-quality commercial flooring installation",
+      "fullDescription": "Since our establishment, we've been steadfast in our commitment to delivering exceptional commercial flooring solutions. Our team combines durability, style, and functionality to transform every commercial environment. We use the best materials and techniques to ensure long-lasting and professional results that exceed industry standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop"
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "2",
+      "title": "Residential Flooring",
+      "description": "Beautiful and durable flooring solutions for homes.",
+      "shortDescription": "Transform your living space with premium residential flooring",
+      "fullDescription": "Our residential flooring services combine aesthetic appeal with durability. We understand that your home is your sanctuary, and we're committed to providing flooring solutions that enhance your living space while standing the test of time. Perfect for bedrooms, kitchens, living rooms, and more.",
+      "images": [
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop"
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "3",
+      "title": "Industrial Flooring",
+      "description": "Heavy-duty industrial flooring for demanding environments.",
+      "shortDescription": "Built for performance in warehouses and factories",
+      "fullDescription": "Our industrial flooring solutions are engineered to withstand the toughest conditions. From warehouses to manufacturing facilities, we provide flooring that combines durability, safety, and performance. Our systems are designed to handle heavy equipment and high-traffic areas.",
+      "images": [
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop"
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "4",
+      "title": "Office Renovation",
+      "description": "Professional office spaces with modern flooring.",
+      "shortDescription": "Complete office space transformation",
+      "fullDescription": "Situated in Skopje, Macedonia, our office renovation projects showcase our commitment to delivering exceptional results. We combine beautiful design with durable materials to create workspaces that inspire productivity and professionalism. Our team ensures every detail is perfect.",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop"
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "5",
+      "title": "Retail Space Upgrade",
+      "description": "High-traffic retail flooring solutions.",
+      "shortDescription": "Flooring solutions for retail environments",
+      "fullDescription": "For retail spaces, we provide flooring that is both attractive and resilient. Our solutions handle high foot traffic, highlight your store's aesthetics, and create an inviting atmosphere that enhances the shopping experience. We focus on durability and style.",
+      "images": [
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=600&h=600&fit=crop"
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1633540642136-2ffc4a0f3108?w=800&h=600&fit=crop"
+    }
+  ]
+}

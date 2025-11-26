@@ -1,6 +1,7 @@
 import AboutFloors from "@/components/home/AboutFloors";
 import Hero from "@/components/home/Hero";
 import RecentProject from "@/components/home/RecentProject";
+import WhatOurClientsSay from "@/components/home/WhatOurClientSay";
 import Footer from "@/components/shared/footer";
 import ReadyToStart from "@/components/shared/ReadyToStart";
 import ServicesList from "@/components/shared/ServicesList";
@@ -19,6 +20,7 @@ export default function Home() {
         />
         <RecentProject />
         <ReadyToStart />
+        <WhatOurClientsSay />
         <Footer />
       </section>
     </>

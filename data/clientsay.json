@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "For retail spaces, we provide flooring that is both attractive and resilient. Our solutions handle high foot traffic, highlight your store's aesthetics, and create an inviting atmosphere that enhances the shopping experience. Our retail store now looks more inviting and high end thanks to District Floors.",
+      "name": "Albert Flores",
+      "title": "Product Manager at Jomanar",
+      "image": "/client.jpg",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "quote": "The flooring installation was seamless and professional. The team was efficient, courteous, and completed the project ahead of schedule. The quality of work exceeded our expectations and our clients have noticed the difference.",
+      "name": "Sarah Johnson",
+      "title": "Owner at Modern Design Studio",
+      "image": "/client.jpg",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "quote": "Outstanding service from start to finish. The consultants took time to understand our needs and provided solutions that fit perfectly. Installation was quick and the durability of the flooring is remarkable.",
+      "name": "Michael Chen",
+      "title": "Operations Manager at Tech Park",
+      "image": "/client.jpg",
+      "rating": 5
+    }
+  ]
+}

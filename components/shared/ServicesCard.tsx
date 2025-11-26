@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export interface Service {
+  id: number;
   img: string;
   title: string;
   description: string;
@@ -11,6 +13,7 @@ export interface Service {
 }
 
 const ServicesCard = ({
+  id,
   img,
   title,
   description,
@@ -48,10 +51,12 @@ const ServicesCard = ({
           <p className="text-gray text-sm md:text-base leading-relaxed">
             {description}
           </p>
-
+         <Link href={`/services/${id}`}>
+         
           <Button className="bg-transparent text-primary text-base tracking-tight hover:bg-transparent cursor-pointer hover:scale-105  font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-10">
             {button}
           </Button>
+         </Link>
         </div>
       </div>
     </div>
