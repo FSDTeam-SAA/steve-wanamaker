@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 const AboutFloors = () => {
   return (
-    <section className="my-16 md:my-20">
+    <section className="py-16 md:py-20">
       <div className="container mx-auto px-4">
 
         {/* Heading */}
@@ -70,7 +70,7 @@ const AboutFloors = () => {
             with precision and dedication. Our focus is creating flooring systems
             that meet both the aesthetic and operational needs of your business.
           </p>
-          <Button className="bg-transparent text-prymary text-base font-medium border border-prymary mt-[30px] mg:mt-[60px] rounded-sm">Learn More</Button>
+          <Button className="bg-transparent text-primary text-base font-medium border border-primary mt-[30px] cursor-pointer hover:bg-transparent hover:scale-105 mg:mt-[60px] rounded-sm">Learn More</Button>
         </div>
 
         </div>
