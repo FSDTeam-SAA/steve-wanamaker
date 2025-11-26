@@ -23,7 +23,6 @@ const Navbar = () => {
     <section className="py-4 shadow-sm bg-transparent backdrop-blur-2xl fixed top-0 left-0 z-50 w-full">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          
           {/* Logo */}
           <div>
             <Image src={"/logo.png"} width={66} height={80} alt="logo" />
@@ -53,10 +52,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setOpen(!open)}
-          >
+          <button className="md:hidden" onClick={() => setOpen(!open)}>
             {open ? <X size={26} /> : <Menu size={26} />}
           </button>
         </div>
