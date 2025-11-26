@@ -1,7 +1,7 @@
 // ...existing code...
 import React from "react";
 import { Button } from "../ui/button";
-import { MoveLeft, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 //
 
