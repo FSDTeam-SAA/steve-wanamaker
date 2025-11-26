@@ -2,6 +2,7 @@ import AboutFloors from "@/components/home/AboutFloors";
 import Hero from "@/components/home/Hero";
 import RecentProject from "@/components/home/RecentProject";
 import Footer from "@/components/shared/footer";
+import ReadyToStart from "@/components/shared/ReadyToStart";
 import ServicesList from "@/components/shared/ServicesList";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           paragraph="Comprehensive flooring solutions for commercial spaces"
         />
         <RecentProject />
+        <ReadyToStart />
         <Footer />
       </section>
     </>
