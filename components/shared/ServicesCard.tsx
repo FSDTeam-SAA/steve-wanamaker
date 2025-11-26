@@ -20,14 +20,14 @@ const ServicesCard = ({
   return (
     <div className="">
       <div
-        className={`container mx-auto flex flex-col md:flex-row items-center  ${
+        className={`container w-[95%] py-4 lg:w-full mx-auto flex flex-col lg:flex-row items-center   ${
           whichside === "left"
-            ? "md:flex-row"
-            : "md:flex-row-reverse"
+            ? "lg:flex-row"
+            : "lg:flex-row-reverse"
         }`}
       >
         {/* Image */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full lg:w-1/2">
           <Image
             src={img}
             alt={title}
@@ -38,7 +38,7 @@ const ServicesCard = ({
         </div>
 
         {/* Content */}
-        <div className={`w-full md:w-1/2 space-y-4 ${whichside === "left" ? "md:pl-12" : "md:pr-12 text-right"} mt-8 md:mt-0`}>
+        <div className={`w-full lg:w-1/2 space-y-4 ${whichside === "left" ? "lg:pl-12" : "lg:pr-12 text-right"} mt-8 lg:mt-0`}>
           <h2 className="text-xl md:text-2xl font-semibold text-secondary">
             {title}
           </h2>
@@ -47,7 +47,7 @@ const ServicesCard = ({
             {description}
           </p>
 
-          <Button className="bg-transparent text-primary text-base tracking-tight font-mediumv border-2  rounded-sm  border-primary mt-[30px] md:mt-[40px]">{button}</Button>
+          <Button className="bg-transparent text-primary text-base tracking-tight hover:bg-transparent cursor-pointer hover:scale-105  font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-[40px]">{button}</Button>
         </div>
       </div>
     </div>

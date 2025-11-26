@@ -3,33 +3,31 @@ import React from "react";
 
 const RecentProject = () => {
   return (
-    <section className="my-16 md:my-20">
+    <section className="py-16 md:py-20 bg-[#DAEECD] backdrop-blur-sm ">
       <div className="container mx-auto ">
         <div className="text-center mb-12 md:mb-20">
           <h2 className="text-secondary text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
             Our Recent Projects
           </h2>
-          <p className="text-gray font-normal text-sm md:text-base">
+          <p className="text-gray font-normal text-sm md:text-base w-[90%] mx-auto">
             Your trusted partner for delivering exceptional, high quality
             commercial flooring solutions tailored to every business space.
           </p>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+       <div className="flex flex-col lg:flex-row gap-6 w-[95%] mx-auto">
 
-  {/* LEFT COLUMN — Large Vertical */}
-  <div className="relative w-full h-full overflow-hidden rounded-lg">
+  <div className="relative w-full lg:w-[36%] aspect-4/3  rounded-lg overflow-hidden">
     <Image
       src="/project/project.jpg"
       alt="project"
-      fill
-      className="object-cover"
+      width={496}
+      height={1000}
+      className="object-cover w-full h-full"
     />
   </div>
 
-  {/* RIGHT SIDE (2 columns inside 2-column span) */}
-  <div className="col-span-2 grid grid-cols-2 gap-6">
+  <div className="w-full lg:w-[64%] grid grid-cols-2 gap-6">
 
-    {/* Top full-width inside right side */}
     <div className="col-span-2 relative w-full h-[250px] overflow-hidden rounded-lg">
       <Image
         src="/project/project2.jpg"
@@ -39,40 +37,43 @@ const RecentProject = () => {
       />
     </div>
 
-    {/* Small Left */}
-    <div className="relative w-full h-[200px] overflow-hidden rounded-lg">
-      <Image
-        src="/project/project3.jpg"
-        alt="project"
-        fill
-        className="object-cover"
-      />
-    </div>
+    <div className="flex gap-5 flex-col lg:flex-row w-full col-span-2">
 
-    {/* Small Right */}
-    <div className="relative w-full h-[200px] overflow-hidden rounded-lg">
-      <Image
-        src="/project/project4.jpg"
-        alt="project"
-        fill
-        className="object-cover"
-      />
-    </div>
+      <div className="w-full lg:w-1/2 flex flex-col gap-5">
 
-    {/* Bottom Full Width */}
-    <div className="col-span-2 relative w-full h-[260px] overflow-hidden rounded-lg">
-      <Image
-        src="/project/project5.jpg"
-        alt="project"
-        fill
-        className="object-cover"
-      />
-    </div>
+        <div className="relative w-full aspect-4/2 rounded-lg overflow-hidden">
+          <Image
+            src="/project/project4.jpg"
+            alt="project"
+            fill
+            className="object-cover"
+          />
+        </div>
 
+        <div className="relative w-full aspect-4/2 rounded-lg overflow-hidden">
+          <Image
+            src="/project/project3.jpg"
+            alt="project"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+      </div>
+
+      {/* LAST IMAGE (FIXED HEIGHT SO IT SHOWS) */}
+      <div className="relative w-full lg:w-1/2 aspect-4/2 rounded-lg overflow-hidden">
+        <Image
+          src="/project/project5.jpg"
+          alt="project"
+          fill
+          className="object-cover"
+        />
+      </div>
+
+    </div>
   </div>
-
 </div>
-
 
       </div>
     </section>
