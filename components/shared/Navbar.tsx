@@ -45,7 +45,7 @@ const Navbar = () => {
           
           {/* Logo */}
           <Link href={"/"}>
-          <Image src={"/logo.png"} width={66} height={80} alt="logo" />
+          <Image src={"/logo.png"} width={66} height={80} alt="logo" className="h-10 w-15 md:h-20 md:w-[65px] object-contain  md:object-cover" />
           </Link>
 
           {/* Desktop Menu */}
@@ -85,7 +85,7 @@ const Navbar = () => {
 
           {/* Desktop Button */}
           <div className="hidden md:block">
-            <Link href={"/"}>
+            <Link href={"/contact"}>
               <Button
                 className={`w-[200px] group mt-2 px-6 py-5 rounded-sm transition-colors duration-300 flex items-center
                 ${
@@ -129,7 +129,7 @@ const Navbar = () => {
               );
             })}
 
-            <Link href={"/"}>
+            <Link href={"/contact"}>
               <Button className="w-[200px] group mt-2 px-6 py-5 bg-primary text-white font-semibold rounded-sm flex items-center">
                 Get a Quote
                 <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />

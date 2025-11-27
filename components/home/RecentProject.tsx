@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Link } from "lucide-react";
 
 const RecentProject = () => {
   return (
     <section className="py-16 md:py-20 bg-[#DAEECD]/20  ">
-
       <div className="container mx-auto ">
         <div className="text-center mb-12 md:mb-20">
           <h2 className="text-secondary text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
@@ -71,10 +70,12 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <Button className="bg-white cursor-pointer border-2 hover:bg-white border-primary mx-auto w-[200px] group py-5 flex rounded-xm  text-primary mt-16 md:mt-20">
-          View Project
-             <ArrowRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
-           </Button>
+        <Link href={"/projects"}>
+          <Button className="bg-white cursor-pointer border-2 hover:bg-white border-primary mx-auto w-[200px] group py-5 flex rounded-xm  text-primary mt-16 md:mt-20">
+            View Project
+            <ArrowRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
+          </Button>
+        </Link>
       </div>
     </section>
   );
