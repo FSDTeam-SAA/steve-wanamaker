@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import { MoveRight } from "lucide-react";
+import Link from "next/link";
 
 const ReadyToStart = () => {
   return (
@@ -23,11 +24,13 @@ const ReadyToStart = () => {
               explore the right flooring solutions, and receive a custom quote
               tailored specifically to your commercial space.
             </p>
-
-            <Button className="text-base font-medium mx-auto tracking-tight bg-primary group hover:scale-105 text-white border-none rounded-sm px-8 py-6 flex items-center gap-2">
+            <Link href={'/contact'}>
+            
+            <Button className="text-base font-medium mx-auto tracking-tight w-[200px] bg-primary group  text-white border-none rounded-sm px-8 py-6 flex items-center gap-2">
               Contact Us
-              <MoveRight className="opacity-0 hidden group-hover:inline-block translate-x-3 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+              <MoveRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
             </Button>
+            </Link>
           </div>
         </div>
       </div>

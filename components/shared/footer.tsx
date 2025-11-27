@@ -9,6 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div>
+            <Link href={"/"}>
+            
             <Image
               src={"/footerlogo.png"}
               alt="footerlogo"
@@ -16,6 +18,7 @@ const Footer = () => {
               height={80}
               className="mb-5"
             />
+            </Link>
             <p className="text-[#6C757D] text-sm md:text-base">
               Delivering trusted and professional commercial flooring solutions
               tailored to every business space.
@@ -38,8 +41,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <div className="grid gap-2 text-sm ">
-              <FooterLink href="/privacy" text="Privacy Policy" />
-              <FooterLink href="/Terms" text="Terms & Conditions" />
+              <FooterLink href="/privacy-policy" text="Privacy Policy" />
+              <FooterLink href="/terms-and-conditions" text="Terms & Conditions" />
             </div>
           </div>
           {/* Contact Section */}

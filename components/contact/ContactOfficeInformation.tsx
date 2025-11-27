@@ -35,7 +35,7 @@ const ContactOfficeInformation = () => {
               key={index}
               className=" p-8  text-center space-y-2"
             >
-              <div className="bg-[#DAEECD66] inline-block p-4 rounded-md">
+              <div className="bg-[#DAEECD66] inline-block p-4 rounded-full">
                 <item.icon className="w-6 h-6 text-[#75C043] mx-auto" />
               </div>
               <h3 className="text-xl font-semibold text-[#343A40] mb-3">

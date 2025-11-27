@@ -41,7 +41,7 @@ const GalleryGrid = ({ images, title }: GalleryGridProps) => {
             className="relative aspect-square group cursor-pointer rounded-lg overflow-hidden"
           >
             <Image
-              src={image || "/placeholder.svg"}
+              src={image || "/noimage.jpg"}
               alt={`Gallery image ${index + 1}`}
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-300"

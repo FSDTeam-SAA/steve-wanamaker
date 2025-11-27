@@ -72,7 +72,7 @@ export default function ProjectsGalleryPage() {
               <div className=" relative group cursor-pointer h-full flex flex-col">
                 <div className="relative aspect-square mb-4 rounded-lg overflow-hidden shrink-0">
                   <Image
-                    src={project.featuredImage || "/placeholder.svg"}
+                    src={project.featuredImage || "/noimage.jpg"}
                     alt={project.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"

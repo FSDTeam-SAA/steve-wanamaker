@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { ArrowRight } from "lucide-react";
 
 const RecentProject = () => {
   return (
@@ -70,7 +71,10 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <Button className="bg-white cursor-pointer border-2 hover:bg-white border-primary mx-auto flex rounded-xm  text-primary mt-16 md:mt-20">View Project</Button>
+        <Button className="bg-white cursor-pointer border-2 hover:bg-white border-primary mx-auto w-[200px] group py-5 flex rounded-xm  text-primary mt-16 md:mt-20">
+          View Project
+             <ArrowRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
+           </Button>
       </div>
     </section>
   );

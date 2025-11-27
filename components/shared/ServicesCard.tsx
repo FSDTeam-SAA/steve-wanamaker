@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export interface Service {
   id: number;
@@ -53,8 +54,9 @@ const ServicesCard = ({
           </p>
          <Link href={`/services/${id}`}>
          
-          <Button className="bg-transparent text-primary text-base tracking-tight hover:bg-transparent cursor-pointer hover:scale-105  font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-10">
+          <Button className="bg-transparent text-primary text-base w-[200px] group py-5 tracking-tight hover:bg-transparent cursor-pointer   font-medium border-2  rounded-sm  border-primary mt-[30px] md:mt-10">
             {button}
+               <ArrowRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
           </Button>
          </Link>
         </div>

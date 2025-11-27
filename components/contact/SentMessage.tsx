@@ -179,11 +179,11 @@ const SentMessage = () => {
                       </FormControl>
                       <span className="text-sm text-gray-600">
                         You agree to our{" "}
-                        <Link href="/terms-conditions" className="text-green-600 underline">
+                        <Link href="/terms-and-conditions" target="_blank" className="text-green-600 underline">
                           Terms & Conditions
                         </Link>{" "}
                         and{" "}
-                        <Link href="/privacy-policy" className="text-green-600 underline">
+                        <Link href="/privacy-policy" target="_blank" className="text-green-600 underline">
                           Privacy Policy
                         </Link>
                         .
