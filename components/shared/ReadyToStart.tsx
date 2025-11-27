@@ -26,7 +26,7 @@ const ReadyToStart = () => {
             </p>
             <Link href={'/contact'}>
             
-            <Button className="text-base font-medium mx-auto tracking-tight w-[200px] bg-primary group  text-white border-none rounded-sm px-8 py-6 flex items-center gap-2">
+            <Button className="text-base cursor-pointer font-medium mx-auto tracking-tight w-[200px] bg-primary group  text-white border-none rounded-sm px-8 py-6 flex items-center gap-2">
               Contact Us
               <MoveRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
             </Button>

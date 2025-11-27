@@ -1,4 +1,5 @@
 import PageHeader from "@/components/shared/page-header";
+import ReadyToStart from "@/components/shared/ReadyToStart";
 import ServicesList from "@/components/shared/ServicesList";
 import React from "react";
 
@@ -15,6 +16,7 @@ export default function page() {
           heading="Professional Flooring Services"
           paragraph="Explore our completed flooring projects and see how we transform commercial spaces with quality and precision."
         />
+        <ReadyToStart />
       </div>
     </>
   );
