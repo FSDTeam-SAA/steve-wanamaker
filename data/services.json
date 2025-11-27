@@ -1,34 +1,193 @@
-[
-  {
-    "id":"1",
-    "img": "/services/services.jpg",
-    "title": "Commercial Flooring Installation",
-    "description": "District Floors delivers high quality commercial flooring solutions for offices, retail, and industrial spaces. Our mission is to combine durability, style, and functionality to transform every commercial environment we work on. We use the best materials and techniques to ensure long-lasting and professional results.",
-    "button": "Learn More",
-    "whichside": "left"
-  },
-  {
-    "id":"2",
-    "img": "/services/services2.jpg",
-    "title": "Office Flooring",
-    "description": "Our office flooring solutions focus on creating professional, durable, and stylish workspaces. We design and install floors that enhance the office environment, improve functionality, and withstand daily wear while maintaining a sleek, modern look. Our office flooring solutions focus on creating professiona.",
-    "button": "Discover More",
-    "whichside": "right"
-  },
-  {
-    "id":"3",
-    "img": "/services/services3.jpg",
-    "title": "Retail Flooring",
-    "description": "For retail spaces, we provide flooring that is both attractive and resilient. Our solutions handle high foot traffic, highlight your store’s aesthetics, and create an inviting atmosphere that enhances the shopping experience. For retail spaces, we provide flooring that is both attractive and resilient.",
-    "button": "View Details",
-    "whichside": "left"
-  },
+{
+  
+  "services": [
     {
-    "id":"3",
-    "img": "/services/services4.jpg",
-    "title": "Industrial Flooring",
-    "description": "Our industrial flooring is designed for heavy duty performance, durability, and safety. Perfect for warehouses, factories, and other industrial facilities, our flooring solutions withstand demanding environments while ensuring long lasting reliability. Our industrial flooring is designed for heavy duty performance, durability.",
-    "button": "View Details",
-    "whichside": "right"
-  }
-]
+      "id": 1,
+      "title": "Commercial Flooring",
+      "button": "Learn More",
+      "description": "Delivering high-quality, durable commercial flooring solutions designed to enhance every business environment.",
+      "fullDescription": "Our commercial flooring solutions ensure durability, aesthetics, and safety across business environments. We provide tailored flooring systems suitable for offices, malls, retail stores, and more.",
+      "features": [
+        {
+          "icon": "🏆",
+          "title": "Quality Excellence",
+          "description": "We deliver premium flooring solutions that exceed industry standards."
+        },
+        {
+          "icon": "👥",
+          "title": "Customer Focus",
+          "description": "We work closely with clients to bring their vision to life."
+        },
+        {
+          "icon": "🎯",
+          "title": "Precision & Detail",
+          "description": "Every project receives careful attention to detail."
+        },
+        {
+          "icon": "🚀",
+          "title": "Innovation",
+          "description": "We provide the latest flooring technologies and styles."
+        }
+      ],
+      "list": [
+        "Durable materials designed for commercial use",
+        "Custom flooring options for retail and office spaces",
+        "Expert installation with minimal downtime",
+        "Long-lasting and low-maintenance performance"
+      ],
+      "discrip2": "Our commercial flooring is designed to withstand heavy foot traffic and maintain a professional appearance for years.",
+      "discrip3":"Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and 2004.What started as humble beginnings grew into a comprehensive array of professional training programs, catering to various roles across departments such as restaurants, bars, and housekeeping. Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and  What started as humble beginnings grew into a comprehensive array of professional training programs.",
+
+      "imageUrl": "/services/services.jpg",
+      "whichside": "left"
+    },
+    {
+      "id": 2,
+      "title": "Residential Flooring",
+      "button": "Learn More",
+      "description": "Transform your home with beautiful, durable residential flooring solutions tailored to your style.",
+      "fullDescription": "Our residential flooring enhances your living space with both beauty and long-lasting performance. We offer solutions designed to fit every home style and environment.",
+      "features": [
+        {
+          "icon": "🏠",
+          "title": "Home Transformation",
+          "description": "Premium flooring options that elevate your home."
+        },
+        {
+          "icon": "💎",
+          "title": "Premium Materials",
+          "description": "We use high-quality materials for long-lasting results."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Expert Installation",
+          "description": "Our skilled team ensures exceptional installation."
+        },
+        {
+          "icon": "🌿",
+          "title": "Eco-Friendly Options",
+          "description": "Sustainable flooring choices for eco-conscious homeowners."
+        }
+      ],
+      "list": [
+        "Comfortable and stylish flooring options",
+        "Scratch-resistant and durable materials",
+        "Perfect for living rooms, bedrooms, and kitchens",
+        "Professional installation with guaranteed quality"
+      ],
+      "discrip2": "Our residential flooring solutions are crafted to bring warmth, comfort, and beauty to every room in your home.",
+      "discrip3": "Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and 2004.What started as humble beginnings grew into a comprehensive array of professional training programs, catering to various roles across departments such as restaurants, bars, and housekeeping. Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and  What started as humble beginnings grew into a comprehensive array of professional training programs.",
+
+      "imageUrl": "/services/services2.jpg",
+      "whichside": "right"
+    },
+    {
+      "id": 3,
+      "title": "Industrial Flooring",
+      "button": "Learn More",
+      "description": "Heavy-duty industrial flooring built to handle demanding environments and high traffic.",
+      "fullDescription": "Our industrial flooring solutions are engineered for maximum strength, safety, and performance. Ideal for warehouses, factories, and high-traffic industrial environments.",
+      "features": [
+        {
+          "icon": "⚙️",
+          "title": "Heavy-Duty Performance",
+          "description": "Built for demanding industrial environments."
+        },
+        {
+          "icon": "🔒",
+          "title": "Safety First",
+          "description": "Durable, anti-slip surfaces for worker protection."
+        },
+        {
+          "icon": "📊",
+          "title": "Consistent Quality",
+          "description": "Reliable performance in all industrial conditions."
+        },
+        {
+          "icon": "⏱️",
+          "title": "Low Maintenance",
+          "description": "Easy to clean and cost-effective to maintain."
+        }
+      ],
+      "list": [
+        "Durable and long-lasting materials",
+        "Customizable designs to fit your industrial needs",
+        "Expert installation by trained professionals",
+        "Comprehensive maintenance and support services"
+      ],
+      "discrip2": "Our industrial flooring solutions are designed to handle heavy loads, high traffic, and demanding environments with ease.",
+      "discrip3": "Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and 2004.What started as humble beginnings grew into a comprehensive array of professional training programs, catering to various roles across departments such as restaurants, bars, and housekeeping. Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and  What started as humble beginnings grew into a comprehensive array of professional training programs.",
+
+      "imageUrl": "/services/services3.jpg",
+      "whichside": "left"
+    },
+    {
+      "id": 4,
+      "title": "Industrial Flooring",
+      "button": "Learn More",
+      "description": "Heavy-duty industrial flooring built to handle demanding environments and high traffic.",
+      "fullDescription": "We deliver highly durable and reliable industrial flooring solutions for manufacturing units, plants, logistics facilities, and more.",
+      "features": [
+        {
+          "icon": "⚙️",
+          "title": "Heavy-Duty Performance",
+          "description": "Designed for extreme loads and harsh conditions."
+        },
+        {
+          "icon": "🔒",
+          "title": "Safety First",
+          "description": "Slip-resistant and secure flooring options."
+        },
+        {
+          "icon": "📊",
+          "title": "Consistent Quality",
+          "description": "Meets all industrial safety and performance standards."
+        },
+        {
+          "icon": "⏱️",
+          "title": "Low Maintenance",
+          "description": "Minimal upkeep, maximizing your operational efficiency."
+        }
+      ],
+      "list": [
+        "Engineered for high-impact industrial environments",
+        "Slip-resistant and safe for workers",
+        "Highly durable materials for long-term use",
+        "Custom options for all types of facilities"
+      ],
+      "discrip2": "Our industrial flooring solutions for large-scale facilities provide exceptional durability, ensuring safe and efficient operations in demanding work environments.",
+      "discrip3": "Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and 2004.What started as humble beginnings grew into a comprehensive array of professional training programs, catering to various roles across departments such as restaurants, bars, and housekeeping. Situated in Skopje, Macedonia, the Kouzon Training Center began its journey by extending complimentary training opportunities to applicants seeking employment between 2000 and  What started as humble beginnings grew into a comprehensive array of professional training programs.",
+
+      "imageUrl": "/services/services4.jpg",
+      "whichside": "right"
+    }
+  ]
+
+,
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "For retail spaces, we provide flooring that is both attractive and resilient. Our solutions handle high foot traffic, highlight your store's aesthetics, and create an inviting atmosphere that enhances the shopping experience. Our retail store now looks more inviting and high end thanks to District Floors.",
+      "name": "Albert Flores",
+      "title": "Product Manager at Jomanar",
+      "image": "/images/frame-2040.png",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "quote": "The flooring installation was seamless and professional. The team was efficient, courteous, and completed the project ahead of schedule. The quality of work exceeded our expectations and our clients have noticed the difference.",
+      "name": "Sarah Johnson",
+      "title": "Owner at Modern Design Studio",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "quote": "Outstanding service from start to finish. The consultants took time to understand our needs and provided solutions that fit perfectly. Installation was quick and the durability of the flooring is remarkable.",
+      "name": "Michael Chen",
+      "title": "Operations Manager at Tech Park",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "rating": 5
+    }
+  ]
+}
