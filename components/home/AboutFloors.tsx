@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const AboutFloors = () => {
   return (
@@ -33,7 +35,7 @@ const AboutFloors = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col ">
             <Image
               src="/about2-flors.png"
               width={800}
@@ -70,7 +72,14 @@ const AboutFloors = () => {
             with precision and dedication. Our focus is creating flooring systems
             that meet both the aesthetic and operational needs of your business.
           </p>
-          <Button className="bg-transparent text-primary text-base font-medium border border-primary mt-[30px] cursor-pointer hover:bg-transparent hover:scale-105 mg:mt-[60px] rounded-sm">Learn More</Button>
+          <Link href={"/about"}>
+          
+          <Button className="bg-transparent group text-primary py-5 text-base font-medium border border-primary mt-[30px] w-[200px] cursor-pointer hover:bg-transparent  mg:mt-[60px] rounded-sm">Learn More
+
+                <ArrowRight className="ml-2 hidden group-hover:block transform transition-transform duration-300" />
+
+          </Button>
+          </Link>
         </div>
 
         </div>
