@@ -1,5 +1,6 @@
 "use client"
 
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 
@@ -44,15 +45,9 @@ const ImageModal = ({ isOpen, imageUrl, onClose, onNext, onPrev, imageAlt = "Gal
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 bg-opacity-90 p-4">
       {/* Close button */}
-      <button
-        onClick={onClose}
-        className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-60 text-2xl font-bold"
-        aria-label="Close modal"
-      >
-        ×
-      </button>
+  
 
       {/* Previous button */}
       {onPrev && (
@@ -61,7 +56,7 @@ const ImageModal = ({ isOpen, imageUrl, onClose, onNext, onPrev, imageAlt = "Gal
           className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:bg-white/20 p-2 rounded-full transition-colors"
           aria-label="Previous image"
         >
-          {"<"}
+          <ChevronLeft className="w-10! h-10!" />
         </button>
       )}
 
@@ -79,16 +74,23 @@ const ImageModal = ({ isOpen, imageUrl, onClose, onNext, onPrev, imageAlt = "Gal
           className="object-contain"
           onLoadingComplete={() => setIsLoading(false)}
         />
+            <button
+        onClick={onClose}
+        className="absolute top-4 right-10 text-white hover:text-gray-300 transition-colors z-60 text-base  font-medium leading-relaxed px-8 py-2 bg-black/50 cursor-pointer rounded-sm"
+        aria-label="Close modal"
+      >
+        Close
+      </button>
       </div>
 
       {/* Next button */}
       {onNext && (
         <button
           onClick={onNext}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:bg-white/20 p-2 rounded-full transition-colors"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:bg-white/20 p-2 rounded-full transition-colors "
           aria-label="Next image"
         >
-          {">"}
+        <ChevronRight className="w-10! h-10!" />
         </button>
       )}
     </div>

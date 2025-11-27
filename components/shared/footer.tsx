@@ -1,48 +1,116 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className=" text-gray">
+    <footer className="  bg-[url('/footerbg.png')]  bg-bottom md:bg-center bg-no-repeat ">
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quintet Thone</h3>
-            <p className="text-slate-300 text-sm">
-              Innovative solutions for modern businesses.
+            <Image
+              src={"/footerlogo.png"}
+              alt="footerlogo"
+              width={66}
+              height={80}
+              className="mb-5"
+            />
+            <p className="text-[#6C757D] text-sm md:text-base">
+              Delivering trusted and professional commercial flooring solutions
+              tailored to every business space.
             </p>
           </div>
 
           {/* Links Section */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <div className="grid grid-cols-2 gap-2 text-sm">
+            <div className="grid  gap-2 text-sm">
               <FooterLink href="/" text="Home" />
               <FooterLink href="/services" text="Services" />
               <FooterLink href="/projects" text="Projects" />
-              <FooterLink href="/about" text="About" />
-              <FooterLink href="/contact" text="Contact" />
-              <FooterLink href="/privacy" text="Privacy" />
+              <FooterLink href="/about" text="About Us" />
+              <FooterLink href="/contact" text="Contact us" />
+        
             </div>
           </div>
-
+          {/* Legal Section */}
+          <div>
+            <h4 className="font-semibold mb-4">Legal</h4>
+            <div className="grid gap-2 text-sm ">
+              <FooterLink href="/privacy" text="Privacy Policy" />
+              <FooterLink href="/Terms" text="Terms & Conditions" />
+            </div>
+          </div>
           {/* Contact Section */}
           <div>
-            <h4 className="font-semibold mb-4">Get in Touch</h4>
-            <div className="space-y-2 text-sm">
-              <div>📧 info@example.com</div>
-              <div>📞 (972) 555-1234</div>
-              <div>📷 @quintetthone</div>
-              <div>📍 Texas, USA</div>
+            <h4 className="font-semibold mb-4">Contact Information</h4>
+            <div className="space-y-2 text-[#6C757D] text-sm md:text-base">
+              <div>Texas, USA</div>
+              <div>Phone:(972) 555-1234</div>
+
+              <div>Email:info@example.com</div>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-slate-700 mt-8 pt-6 text-center text-slate-400 text-sm">
+        <div className="border-t border-slate-700 mt-8 pt-6 text-center text-[#6C757D] text-sm flex justify-between items-center">
           <p>© 2024 Quintet Thone. All rights reserved.</p>
+          <div className="flex gap-3">
+            <Link
+              href="https://stevewanamaker.com"
+              target="_blank"
+              className="text-slate-400 hover:text-slate-200"
+            >
+              <Image
+                src="/facebook.svg"
+                alt="Steve Wanamaker"
+              width={25}
+                height={25}
+                className="mx-auto mt-2"
+              />
+            </Link>
+            <Link
+              href="https://stevewanamaker.com"
+              target="_blank"
+              className="text-slate-400 hover:text-slate-200"
+            >
+              <Image
+                src="/twitter.svg"
+                alt="Steve Wanamaker"
+          width={25}
+                height={25}
+                className="mx-auto mt-2"
+              />
+            </Link>
+            <Link
+              href="https://stevewanamaker.com"
+              target="_blank"
+              className="text-slate-400 hover:text-slate-200"
+            >
+              <Image
+                src="/linkedin.svg"
+                alt="Steve Wanamaker"
+                width={25}
+                height={25}
+                className="mx-auto mt-2"
+              />
+            </Link>
+            <Link
+              href="https://stevewanamaker.com"
+              target="_blank"
+              className="text-slate-400 hover:text-slate-200"
+            >
+              <Image
+                src="/instagram.svg"
+                alt="Steve Wanamaker"
+               width={25}
+                height={25}
+                className="mx-auto mt-2"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
@@ -52,7 +120,7 @@ const Footer = () => {
 const FooterLink = ({ href, text }: { href: string; text: string }) => (
   <Link
     href={href}
-    className="text-slate-300 hover:text-white transition-colors block"
+    className="text-[#6C757D] cursor-pointer hover:text-[#6a6e72] text-sm md:ext-base transition-colors block"
   >
     {text}
   </Link>
