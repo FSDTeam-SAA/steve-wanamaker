@@ -43,7 +43,7 @@ const valuesData = [
 
 export default function OurValues() {
   return (
-    <section className="lg:py-20 py-8">
+    <section className="lg:pt-20 pt-8">
       <div className="container mx-auto px-2 lg:px-0">
         {/* Header */}
         <div className="text-center mb-6 md:mb-12">
