@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Links Section */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <div className="grid  gap-2 text-sm">
+            <div className=" inline-block gap-2 text-sm">
               <FooterLink href="/" text="Home" />
               <FooterLink href="/services" text="Services" />
               <FooterLink href="/projects" text="Projects" />
@@ -40,7 +40,7 @@ const Footer = () => {
           {/* Legal Section */}
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
-            <div className="grid gap-2 text-sm ">
+            <div className=" inline-block gap-2 text-sm ">
               <FooterLink href="/privacy-policy" text="Privacy Policy" />
               <FooterLink href="/terms-and-conditions" text="Terms & Conditions" />
             </div>
@@ -123,7 +123,7 @@ const Footer = () => {
 const FooterLink = ({ href, text }: { href: string; text: string }) => (
   <Link
     href={href}
-    className="text-[#6C757D] cursor-pointer hover:text-[#6a6e72] text-sm md:ext-base transition-colors block"
+    className="text-[#6C757D] cursor-pointer hover:text-[#6a6e72] py-3 text-sm md:ext-base transition-colors block "
   >
     {text}
   </Link>
