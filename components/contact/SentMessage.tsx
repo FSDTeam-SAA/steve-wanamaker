@@ -28,7 +28,9 @@ const formSchema = z.object({
   message: z.string().min(1, "Message is required"),
   agree: z
     .boolean()
-    .refine((val) => val === true, { message: "You must agree to the terms and conditions" }),
+    .refine((val) => val === true, {
+      message: "You must agree to the terms and conditions",
+    }),
 });
 
 const SentMessage = () => {
@@ -80,14 +82,24 @@ const SentMessage = () => {
               alt="sent message"
               width={735}
               height={890}
-              className="w-full aspect-[5/4] rounded-2xl"
+              className="w-full aspect-5/5 object-cover rounded-2xl"
             />
           </div>
 
           {/* Form */}
           <div>
+            <h2 className="text-secondary text-2xl md:text-4xl mb-3 font-serif">
+              Send Us a <span className="text-primary">Message</span>
+            </h2>
+            <p className="text-[#6C757D] mb-8 md:mb-10 leading-relaxed text-sm md:text-base">
+              Fill out the form below with your questions, feedback, or
+              inquiries. Our team will get back to you promptly.
+            </p>
             <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+              <form
+                onSubmit={form.handleSubmit(onSubmit)}
+                className="space-y-4"
+              >
                 {/* Name Fields */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <FormField
@@ -97,7 +109,11 @@ const SentMessage = () => {
                       <FormItem>
                         <FormLabel>First Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="First Name" {...field} className="py-5 rounded-sm" />
+                          <Input
+                            placeholder="First Name"
+                            {...field}
+                            className="py-5 rounded-sm"
+                          />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -111,7 +127,11 @@ const SentMessage = () => {
                       <FormItem>
                         <FormLabel>Last Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Last Name" {...field} className="py-5 rounded-sm" />
+                          <Input
+                            placeholder="Last Name"
+                            {...field}
+                            className="py-5 rounded-sm"
+                          />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -127,7 +147,11 @@ const SentMessage = () => {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="you@company.com" {...field} className="py-5 rounded-sm" />
+                        <Input
+                          placeholder="you@company.com"
+                          {...field}
+                          className="py-5 rounded-sm"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -142,7 +166,11 @@ const SentMessage = () => {
                     <FormItem>
                       <FormLabel>Phone Number</FormLabel>
                       <FormControl>
-                        <Input placeholder="+1234567890" {...field} className="py-5 rounded-sm" />
+                        <Input
+                          placeholder="+1234567890"
+                          {...field}
+                          className="py-5 rounded-sm"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -175,15 +203,26 @@ const SentMessage = () => {
                   render={({ field }) => (
                     <FormItem className="flex items-center space-x-2">
                       <FormControl>
-                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                        <Checkbox
+                          checked={field.value}
+                          onCheckedChange={field.onChange}
+                        />
                       </FormControl>
                       <span className="text-sm text-gray-600">
                         You agree to our{" "}
-                        <Link href="/terms-and-conditions" target="_blank" className="text-green-600 underline">
+                        <Link
+                          href="/terms-and-conditions"
+                          target="_blank"
+                          className="text-green-600 underline"
+                        >
                           Terms & Conditions
                         </Link>{" "}
                         and{" "}
-                        <Link href="/privacy-policy" target="_blank" className="text-green-600 underline">
+                        <Link
+                          href="/privacy-policy"
+                          target="_blank"
+                          className="text-green-600 underline"
+                        >
                           Privacy Policy
                         </Link>
                         .

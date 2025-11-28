@@ -8,7 +8,7 @@ const RecentProject = () => {
     <section className="py-16 md:py-20 bg-[#DAEECD]/20  ">
       <div className="container mx-auto ">
         <div className="text-center mb-12 md:mb-20">
-          <h2 className="text-secondary text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
+          <h2 className="text-secondary text-2xl md:text-3xl font-serif font-semibold tracking-tighter mb-1">
             Our Recent Projects
           </h2>
           <p className="text-gray font-normal text-sm md:text-base w-[90%] mx-auto">
