@@ -76,7 +76,7 @@ const ImageModal = ({ isOpen, imageUrl, onClose, onNext, onPrev, imageAlt = "Gal
         />
             <button
         onClick={onClose}
-        className="absolute top-4 right-10 text-white hover:text-gray-300 transition-colors z-60 text-base  font-medium leading-relaxed px-8 py-2 bg-black/50 cursor-pointer rounded-sm"
+        className="absolute top-30 md:top-4 md:right-10 text-white hover:text-gray-300 transition-colors z-60 text-base  font-medium leading-relaxed px-8 py-2 bg-black/50 cursor-pointer rounded-sm"
         aria-label="Close modal"
       >
         Close
