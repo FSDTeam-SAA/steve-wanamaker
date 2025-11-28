@@ -14,7 +14,7 @@ const ReadyToStart = () => {
 
           {/* Content */}
           <div className="relative z-10">
-            <h2 className="text-gray-800 text-2xl md:text-3xl font-semibold tracking-tight mb-4">
+            <h2 className="text-gray-800 font-serif text-2xl md:text-3xl font-semibold tracking-tight mb-4">
               Ready to Start Your{" "}
               <span className="text-primary">Flooring Project?</span>
             </h2>

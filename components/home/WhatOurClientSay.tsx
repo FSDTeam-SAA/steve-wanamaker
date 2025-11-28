@@ -57,7 +57,7 @@ const WhatOurClientsSay = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold text-secondary mb-4">
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-secondary mb-4">
             What Our Clients Say
           </h2>
           <p className="text-gray-600 text-base md:text-lg">

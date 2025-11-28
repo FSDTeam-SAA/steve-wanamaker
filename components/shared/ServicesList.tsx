@@ -13,7 +13,7 @@ const ServicesList = ({
     <section className="my-16 md:my-20">
       <div className="container mx-auto">
         <div className="text-center mb-12 md:mb-20">
-          <h2 className="text-secondary text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
+          <h2 className="text-secondary font-serif text-2xl md:text-3xl font-semibold tracking-tighter mb-1">
             {heading}
           </h2>
           <p className="text-gray font-normal text-sm md:text-base">

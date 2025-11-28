@@ -21,7 +21,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
         <div className="container mx-auto px-4 text-white max-w-[50%] text-start sm:text-center">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl lg:text-[50px] font-bold leading-tight">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl lg:text-[50px] font-bold leading-tight font-serif">
             Transforming{" "}
             <span className="text-[#426E25]">Commercial Spaces</span> with
             Expert Flooring Solutions

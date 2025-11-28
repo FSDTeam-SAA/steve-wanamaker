@@ -11,7 +11,7 @@ const AboutFloors = () => {
 
         {/* Heading */}
         <div className="text-center">
-          <h2 className="text-xl md:text-3xl font-bold text-secondary mb-4 tracking-tight">
+          <h2 className="text-xl md:text-3xl font-serif font-bold text-secondary mb-4 tracking-tight">
             About District Floors
           </h2>
           <p className="text-sm md:text-base text-gray">
@@ -19,12 +19,12 @@ const AboutFloors = () => {
             commercial flooring solutions tailored to every business space.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:gap-12 mt-[40] lg:mt-20  lg:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-5 items-center lg:mt-10">
 
 
 
         {/* Images */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 lg:col-span-2 col-span-5">
           <div>
             <Image
               src="/about-florr.jpg"
@@ -54,7 +54,7 @@ const AboutFloors = () => {
         </div>
 
         {/* Text Section */}
-        <div className="mt-8 max-w-3xl">
+        <div className="max-w-3xl lg:col-span-3 col-span-5">
           <h3 className="text-xl md:text-2xl font-semibold text-secondary mb-3">
             Delivering Excellence in Commercial Flooring
           </h3>

@@ -18,7 +18,7 @@ const RelatedProjects = ({ projects }: RelatedProjectsProps) => {
     <section className="py-16 md:py-20 ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold text-secondary mb-3">Related Projects</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold text-secondary mb-3 font-serif">Related Projects</h2>
           <p className="text-gray-600 text-sm md:text-base">
             Explore our completed flooring projects and see how we transform commercial spaces with quality and
             precision
