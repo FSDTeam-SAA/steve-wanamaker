@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
-import { ArrowRight, Link } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const RecentProject = () => {
   return (
@@ -70,12 +71,16 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <Link href={"/projects"}>
-          <Button className="bg-white cursor-pointer border-2 hover:bg-white border-primary mx-auto w-[200px] group py-5 flex rounded-xm  text-primary mt-16 md:mt-20">
-            View Project
+           <Link href={'/projectgallary'}>
+           
+           
+          <Button className="bg-transparent cursor-pointer border-2 hover:bg-white border-primary mx-auto w-[200px] group py-5 flex rounded-xm  text-primary mt-16 md:mt-20">
+            View Project 
             <ArrowRight className="ml-2 opacity-100 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300" />
           </Button>
-        </Link>
+     
+           </Link>
+         
       </div>
     </section>
   );
