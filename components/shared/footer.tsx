@@ -14,9 +14,9 @@ const Footer = () => {
             <Image
               src={"/footerlogo.png"}
               alt="footerlogo"
-              width={66}
-              height={80}
-              className="mb-5"
+              width={106}
+              height={200}
+              className="mb-5 object-cover "
             />
             </Link>
             <p className="text-[#6C757D] text-sm md:text-base">
