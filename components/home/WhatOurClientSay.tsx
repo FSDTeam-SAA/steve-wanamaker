@@ -12,7 +12,7 @@ interface Testimonial {
   name: string;
   title: string;
   image: string;
-  project:string;
+  project: string;
   rating: number;
 }
 
@@ -69,7 +69,7 @@ const WhatOurClientsSay = () => {
         {/* Carousel */}
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Left Content */}
-          <div className="w-full lg:w-1/2 order-2 lg:order-1">
+          <div className="w-full lg:w-1/2 mx-auto order-2 lg:order-1">
             <div className="space-y-6">
               {/* Quote */}
               <div className="text-lg md:text-xl text-gray-800 leading-relaxed">
@@ -79,26 +79,34 @@ const WhatOurClientsSay = () => {
 
                 {/* Rating */}
                 <div className="flex gap-1 justify-between mb-2">
-                   <div>
-                   <h1 className="text-[#343A40] text-xl tracking-wide md:text-2xl">“{current.project}”</h1>
-
-                   </div>
+                  <div>
+                    <h1 className="text-[#343A40] text-xl tracking-wide md:text-2xl">
+                      “{current.project}”
+                    </h1>
+                  </div>
                   <div className="flex gap-1">
-
-                  {[...Array(current.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="w-5 h-5 fill-yellow-400 text-yellow-400"
-                    />
-                  ))}
+                    {[...Array(current.rating)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-yellow-400 text-yellow-400"
+                      />
+                    ))}
                   </div>
                 </div>
                 <p className="text-base md:text-lg text-gray-700">
                   {current.quote}
                 </p>
+                <div className="pt-5 bottom-4 left-4 md:left-6  items-center ">
+                  <h3 className="font-semibold text-lg md:text-2xl tracking-tighter  ">
+                    {current.name}
+                  </h3>
+                  <p className="text-sm md:text-base tracking-tighter font-normal ">
+                    {current.title}
+                  </p>
+                </div>
               </div>
 
-              <div className="flex gap-3 items-center mt-8">
+              <div className="flex gap-3 items-center mt-8 justify-center">
                 <Button
                   onClick={goToPrevious}
                   variant="outline"
@@ -140,7 +148,7 @@ const WhatOurClientsSay = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full lg:w-1/2 order-1 lg:order-2">
+          {/* <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src={current.image || "/placeholder.svg"}
@@ -149,7 +157,7 @@ const WhatOurClientsSay = () => {
                 className="object-cover"
                 priority
               />
-              {/* Author Info */}
+
               <div className="absolute bottom-4 left-4 md:left-6  items-center ">
                 <h3 className="font-semibold text-lg md:text-2xl tracking-tighter text-[#FFFFFF] ">
                   {current.name}
@@ -158,9 +166,9 @@ const WhatOurClientsSay = () => {
                   {current.title}
                 </p>
               </div>
-              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" /> */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
-          </div>
+          </div>   */}
         </div>
       </div>
     </section>

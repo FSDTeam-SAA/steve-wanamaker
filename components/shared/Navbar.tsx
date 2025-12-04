@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <section
-      className={`py-4 fixed top-0 left-0 w-full z-50 backdrop-blur-2xl transition-all duration-300
+      className={`py-4 md:py-6 fixed top-0 left-0 w-full z-50 backdrop-blur-2xl transition-all duration-300
         ${isHome && isHero ? "bg-transparent" : "bg-white shadow-sm"}
       `}
     >
@@ -45,7 +45,7 @@ const Navbar = () => {
           
           {/* Logo */}
           <Link href={"/"}>
-          <Image src={"/logo.png"} width={66} height={80} alt="logo" className="h-10 w-15 md:h-20 md:w-[65px] object-contain  md:object-cover" />
+          <Image src={"/logo.png"} width={100} height={150} alt="logo" className="h-10 w-15 md:h-20 md:w-[65px] object-cover  md:object-contain" />
           </Link>
 
           {/* Desktop Menu */}

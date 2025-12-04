@@ -14,7 +14,7 @@ const ContactOfficeInformation = () => {
     name:'Office',
     title: "Come say hello at our office HQ.",
     description:
-      "100 Smith Street Collingwood VIC 3066 AU",
+      "44200 Waxpool Rd Ashburn,VA,USA",
     icon: MapPin,
   },
   {
