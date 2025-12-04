@@ -49,7 +49,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Information</h4>
             <div className="space-y-2 text-[#6C757D] text-sm md:text-base">
-              <div>Texas, USA</div>
+              <div>44200 Waxpool Rd Ashburn,VA,USA</div>
               <div>Phone:(972) 555-1234</div>
 
               <div>Email:info@example.com</div>
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="border-t border-slate-700 mt-8 pt-6 text-center text-[#6C757D] text-sm flex justify-between items-center">
           <p>© 2024 Quintet Thone. All rights reserved.</p>
           <div className="flex gap-3">
-            <Link
+            {/* <Link
               href="https://stevewanamaker.com"
               target="_blank"
               className="text-slate-400 hover:text-slate-200"
@@ -73,8 +73,8 @@ const Footer = () => {
                 height={25}
                 className="mx-auto mt-2"
               />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="https://stevewanamaker.com"
               target="_blank"
               className="text-slate-400 hover:text-slate-200"
@@ -86,9 +86,9 @@ const Footer = () => {
                 height={25}
                 className="mx-auto mt-2"
               />
-            </Link>
+            </Link> */}
             <Link
-              href="https://stevewanamaker.com"
+              href="https://www.linkedin.com/in/steve-wanamaker-46567a10b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               className="text-slate-400 hover:text-slate-200"
             >
@@ -101,7 +101,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              href="https://stevewanamaker.com"
+              href="https://www.instagram.com/district_floors?igsh=MW5hY2NrMm1iczk3NA=="
               target="_blank"
               className="text-slate-400 hover:text-slate-200"
             >
