@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -20,13 +21,14 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
-        <div className="container mx-auto px-4 text-white max-w-[50%] text-start sm:text-center">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl lg:text-[50px] font-bold leading-tight font-serif">
+        <div className="container mx-auto px-4 text-white max-w-[50%] space-y-10 text-start sm:text-center">
+          {/* <h2 className="text-2xl md:text-4xl lg:text-5xl lg:text-[50px] font-bold leading-tight font-serif">
             Transforming{" "}
             <span className="text-[#426E25]">Commercial Spaces</span> with
             Expert Flooring Solutions
-          </h2>
+          </h2> */}
 
+          <Image src={'/lOGO.png'} alt="heroimage" width={200} height={500} className=" object-cover  flex justify-center mx-auto" />
           <p className="mt-4 text-sm md:text-lg lg:text-xl text-gray-200">
             High quality, durable, and stylish flooring solutions for offices,
             retail spaces, and industrial environments — designed to elevate
