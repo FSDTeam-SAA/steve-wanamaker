@@ -45,7 +45,7 @@ const Navbar = () => {
           
           {/* Logo */}
           <Link href={"/"}>
-          <Image src={"/logo.png"} width={100} height={150} alt="logo" className="h-10 w-15 md:h-24 md:w-[85px] object-cover  md:object-contain" />
+          <Image src={"/logo.png"} width={100} height={150} alt="logo" className="h-10 w-15 md:h-20 md:w-[65px] object-cover  md:object-contain" />
           </Link>
 
           {/* Desktop Menu */}
